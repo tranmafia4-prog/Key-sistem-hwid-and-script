@@ -5,19 +5,9 @@ local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
 local Database = {
     ["hao1367t"] = "42331c06-c11d-4df6-bd43-a7ace3cc1d58",
 
-    ["ATX-A7K9P2X4"] = "20fd1913-0488-4eee-8386-a7f4ab2b8499",  -- Máy phụ
+    ["ATX-A7K9P2X4"] = "20fd1913-0488-4eee-8386-a7f4ab2b8499",  -- Máy phụ cũ
 
-    -- 10 key ngẫu nhiên không khoảng trắng
-    ["ATX-7K9P2X4M"] = "20fd1913-0488-4eee-8386-a7f4ab2b8499",
-    ["ATX-8L3Q5R9N"] = "HWID2",
-    ["ATX-2M6T4V9B"] = "HWID3",
-    ["ATX-5N8W3X7C"] = "HWID4",
-    ["ATX-9P1Y6Z0D"] = "HWID5",
-    ["ATX-4Q7A2B8E"] = "HWID6",
-    ["ATX-3R0C5D1F"] = "HWID7",
-    ["ATX-6S9E8G4H"] = "HWID8",
-    ["ATX-1T2F7I0J"] = "HWID9",
-    ["ATX-8U5G3K9L"] = "HWID10",
+    ["ATX-XYZ999"] = "20fd1913-0488-4eee-8386-a7f4ab2b8499",   -- ← Key mới thêm vào đây
 }
 
 if Database[getgenv().Key] == HWID then
