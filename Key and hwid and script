@@ -64,7 +64,7 @@ local enteredKey = getgenv().Key
 
 if Database[enteredKey] == HWID or Database[enteredKey] == "HWID" .. string.match(HWID, "%d+") then
     print("✅ Key + HWID đúng! Đang load Atexmi Hub v1...")
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/tranmafia4-prog/Atexmi-hub-premium-key/refs/heads/main/Atexmi%20hub%20v1%20b%E1%BA%A3n%20%C4%91%E1%BA%A7u.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tranmafia4-prog/Atexmi-hub-premium-key/refs/heads/main/Atexmi%20hub%20v3%20b%E1%BA%A3n%20%C4%91%E1%BA%A7u.lua"))()
 else
     game.Players.LocalPlayer:Kick("❌ Key không đúng hoặc HWID không khớp!")
 end
