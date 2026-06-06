@@ -8,8 +8,6 @@ local Database = {
     ["ATX-A7K9P2X4"] = "20fd1913-0488-4eee-8386-a7f4ab2b8499",   -- Máy phụ cũ
 
     ["ATX-NEW99999"] = "20fd1913-0488-4eee-8386-a7f4ab2b8499",   -- Key mới thêm (cùng HWID)
-
-    ["ATX-NETUTT7U5] = "20fd1913-0488-4eee-8386-a7f4ab2b8499",   -- key máy phụ
 }
 
 if Database[getgenv().Key] == HWID then
