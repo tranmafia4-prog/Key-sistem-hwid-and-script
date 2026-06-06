@@ -1,14 +1,13 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 
-if not getgenv().Key then
-    game.Players.LocalPlayer:Kick("❌ Phải dùng Loader chính thức!")
-end
-
 local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
 
 local Database = {
     ["hao1367t"] = "42331c06-c11d-4df6-bd43-a7ace3cc1d58",
-    ["ATX-A7K9P2X4"] = "20fd1913-0488-4eee-8386-a7f4ab2b8499",
+
+    ["ATX-A7K9P2X4"] = "20fd1913-0488-4eee-8386-a7f4ab2b8499",  -- Máy phụ cũ
+
+    ["ATX-XYZ999"] = "HWID_CUA_MAY_MOI",   -- ← Key mới thêm vào đây
 }
 
 if Database[getgenv().Key] == HWID then
