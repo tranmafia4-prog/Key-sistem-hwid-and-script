@@ -11,7 +11,7 @@ local Database = {
 }
 
 if Database[getgenv().Key] == HWID then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/tranmafia4-prog/Atexmi-hub-premium-key/refs/heads/main/Atexmi%20hub%20v1%20b%E1%BA%A3n%20%C4%91%E1%BA%A7u.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tranmafia4-prog/Layer-3/refs/heads/main/Layer2"))()
 else
     game.Players.LocalPlayer:Kick("❌ Key hoặc HWID không đúng!")
 end
