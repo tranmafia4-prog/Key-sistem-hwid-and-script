@@ -1,9 +1,9 @@
-herelocal HWID = game:GetService("RbxAnalyticsService"):GetClientId()
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
 
 local Database = {
-    ["hao1367t"] = "42331c06-c11d-4df6-bd43-a7ace3cc1d58",  -- Key admin của bạn
+    ["hao1367t"] = "42331c06-c11d-4df6-bd43-a7ace3cc1d58",  -- Key admin của bạn (đã update)
 
-    -- ================== 50 KEY NGẪU NHIÊN SẴN ==================
+    -- ================== 50 KEY NGẪU NHIÊN ==================
     ["ATX-A7K9P2X4"] = "HWID1",
     ["ATX-B8L3M5Q9"] = "HWID2",
     ["ATX-C9N4R6T1"] = "HWID3",
