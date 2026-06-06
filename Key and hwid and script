@@ -1,0 +1,68 @@
+herelocal HWID = game:GetService("RbxAnalyticsService"):GetClientId()
+
+local Database = {
+    ["hao1367t"] = "42331c06-c11d-4df6-bd43-a7ace3cc1d58",  -- Key admin của bạn
+
+    -- ================== 50 KEY NGẪU NHIÊN SẴN ==================
+    ["ATX-A7K9P2X4"] = "HWID1",
+    ["ATX-B8L3M5Q9"] = "HWID2",
+    ["ATX-C9N4R6T1"] = "HWID3",
+    ["ATX-D2P7V8W0"] = "HWID4",
+    ["ATX-E5Q1X3Y6"] = "HWID5",
+    ["ATX-F8R4Z7A2"] = "HWID6",
+    ["ATX-G3S9B5C8"] = "HWID7",
+    ["ATX-H6T2D0E4"] = "HWID8",
+    ["ATX-I1U5F9G7"] = "HWID9",
+    ["ATX-J4V8H3I6"] = "HWID10",
+
+    ["ATX-K7W2J5K9"] = "HWID11",
+    ["ATX-L0X6L1M4"] = "HWID12",
+    ["ATX-M3Y9N8O2"] = "HWID13",
+    ["ATX-N6Z4P7Q5"] = "HWID14",
+    ["ATX-O1A8R3S0"] = "HWID15",
+    ["ATX-P4B2T6U9"] = "HWID16",
+    ["ATX-Q7C5V1W3"] = "HWID17",
+    ["ATX-R0D9X4Y8"] = "HWID18",
+    ["ATX-S3E2Z7A6"] = "HWID19",
+    ["ATX-T6F5B1C0"] = "HWID20",
+
+    ["ATX-U9G8D4E3"] = "HWID21",
+    ["ATX-V2H3F7G6"] = "HWID22",
+    ["ATX-W5I6H1I9"] = "HWID23",
+    ["ATX-X8J0J4K2"] = "HWID24",
+    ["ATX-Y1K7L3M5"] = "HWID25",
+    ["ATX-Z4L0N6O8"] = "HWID26",
+    ["ATX-A7M9P2Q1"] = "HWID27",
+    ["ATX-B0N3R5S4"] = "HWID28",
+    ["ATX-C3O6T8U7"] = "HWID29",
+    ["ATX-D6P9V2W0"] = "HWID30",
+
+    ["ATX-E9Q1X4Y3"] = "HWID31",
+    ["ATX-F2R5Z8A6"] = "HWID32",
+    ["ATX-G5S8B1C9"] = "HWID33",
+    ["ATX-H8T0D4E2"] = "HWID34",
+    ["ATX-I1U3F7G5"] = "HWID35",
+    ["ATX-J4V6H9I8"] = "HWID36",
+    ["ATX-K7W0J3K1"] = "HWID37",
+    ["ATX-L0X2L5M4"] = "HWID38",
+    ["ATX-M3Y6N9O7"] = "HWID39",
+    ["ATX-N6Z9P2Q0"] = "HWID40",
+
+    ["ATX-O1A3R6S8"] = "HWID41",
+    ["ATX-P4B7T0U2"] = "HWID42",
+    ["ATX-Q7C9V3W5"] = "HWID43",
+    ["ATX-R0D2X6Y1"] = "HWID44",
+    ["ATX-S3E5Z8A4"] = "HWID45",
+    ["ATX-T6F8B1C7"] = "HWID46",
+    ["ATX-U9G2D5E0"] = "HWID47",
+    ["ATX-V2H4F7G3"] = "HWID48",
+    ["ATX-W5I8H0I6"] = "HWID49",
+    ["ATX-X8J1J4K9"] = "HWID50",
+}
+
+if Database[getgenv().Key] == HWID then
+    print("✅ Key + HWID đúng! Load Atexmi Hub v1...")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tranmafia4-prog/Atexmi-hub-premium-key/refs/heads/main/Atexmi%20hub%20v1%20b%E1%BA%A3n%20%C4%91%E1%BA%A7u.lua"))()
+else
+    game.Players.LocalPlayer:Kick("❌ Key không đúng hoặc HWID không khớp!")
+end
