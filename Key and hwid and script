@@ -4,7 +4,7 @@ local Database = {
     ["hao1367t"] = "42331c06-c11d-4df6-bd43-a7ace3cc1d58",  -- Key admin của bạn
 
     -- ================== 50 KEY NGẪU NHIÊN ==================
-    ["ATX-A7K9P2X4"] = "HWID1",
+    ["ATX-A7K9P2X4"] = "20fd1913-0488-4eee-8386-a7f4ab2b8499",
     ["ATX-B8L3M5Q9"] = "HWID2",
     ["ATX-C9N4R6T1"] = "HWID3",
     ["ATX-D2P7V8W0"] = "HWID4",
