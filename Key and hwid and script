@@ -1,17 +1,19 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 
+-- BẢO VỆ LỖ HỔNG LỚN
+if not getgenv().Key or getgenv().Key == "" then
+    game.Players.LocalPlayer:Kick("❌ Phải dùng Loader chính thức!")
+end
+
 local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
 
 local Database = {
     ["hao1367t"] = "42331c06-c11d-4df6-bd43-a7ace3cc1d58",
-
-    ["ATX-A7K9P2X4"] = "20fd1913-0488-4eee-8386-a7f4ab2b8499",  -- Máy phụ cũ
-
-    ["ATX-XYZ999"] = "HWID_CUA_MAY_MOI",   -- ← Key mới thêm vào đây
+    ["ATX-A7K9P2X4"] = "20fd1913-0488-4eee-8386-a7f4ab2b8499",
 }
 
 if Database[getgenv().Key] == HWID then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/tranmafia4-prog/Layer-3/refs/heads/main/Layer2"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tranmafia4-prog/Atexmi-hub-premium-key/refs/heads/main/Atexmi%20hub%20v1%20b%E1%BA%A3n%20%C4%91%E1%BA%A7u.lua"))()
 else
     game.Players.LocalPlayer:Kick("❌ Key hoặc HWID không đúng!")
 end
