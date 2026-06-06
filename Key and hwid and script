@@ -1,7 +1,6 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 
--- Bảo vệ mạnh
-if not getgenv().Key or typeof(getgenv().Key) \~= "string" or getgenv().Key == "" then
+if not getgenv().Key then
     game.Players.LocalPlayer:Kick("❌ Phải dùng Loader chính thức!")
 end
 
