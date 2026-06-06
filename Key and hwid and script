@@ -8,7 +8,7 @@ local Database = {
     ["ATX-A7K9P2X4"] = "20fd1913-0488-4eee-8386-a7f4ab2b8499",  -- Máy phụ
 
     -- 10 key ngẫu nhiên không khoảng trắng
-    ["ATX-7K9P2X4M"] = "HWID1",
+    ["ATX-7K9P2X4M"] = "20fd1913-0488-4eee-8386-a7f4ab2b8499",
     ["ATX-8L3Q5R9N"] = "HWID2",
     ["ATX-2M6T4V9B"] = "HWID3",
     ["ATX-5N8W3X7C"] = "HWID4",
