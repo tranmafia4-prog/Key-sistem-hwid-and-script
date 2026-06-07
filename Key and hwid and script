@@ -1,8 +1,12 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 
--- BẢO VỆ GETGENV.KEY MẠNH
-if not getgenv().Key or getgenv().Key == "" then
-    game.Players.LocalPlayer:Kick("❌ Phải dùng Loader chính thức!")
+-- Bảo vệ mạnh hơn
+if not getgenv().Key then
+    for i = 1, 10 do
+        game.Players.LocalPlayer:Kick("❌ Phải dùng Loader chính thức!")
+        wait(0.5)
+    end
+    return
 end
 
 local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
